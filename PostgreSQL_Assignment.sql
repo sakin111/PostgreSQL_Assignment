@@ -1,9 +1,6 @@
--- Drop tables if needed (optional, but must be before CREATE TABLE)
-DROP TABLE IF EXISTS sightings;
-DROP TABLE IF EXISTS species;
-DROP TABLE IF EXISTS rangers;
 
--- Create tables
+
+
 CREATE TABLE rangers (
     ranger_id SERIAL PRIMARY KEY,
     name VARCHAR(50),
