@@ -50,10 +50,12 @@ it can not be assign as NUll value, as it is used as criterion to filter data fr
 
 * for example 
 
-| student_id | student_name| age |
-|  1         |  john       | 23  |
-|  2         |  peter      | 24  |
-|  3         |  mark       | 27  |
+| student_id | student_name | age |
+|------------|--------------|-----|
+| 1          | John         | 23  |
+| 2          | Peter        | 24  |
+| 3          | Mark         | 27  |
+
 
 In the Table the student_id is a primary key because it is a unique key that only for the particular subject here 1 is john , 2 is peter and 3 is mark which can not be NULL value.
 
@@ -68,10 +70,11 @@ A foreign key is a column  in one table that references the primary key of anoth
 
 * for example 
 
-| subject_id | subject_name| student_id |
-|  1         |  Maths      | 2          |
-|  2         |  Science    | 3          |
-|  3         |  Arts       | 1          |
+| subject_id | subject_name | student_id |
+|------------|--------------|-------------|
+| 1          | Maths        | 2           |
+| 2          | Science      | 3           |
+| 3          | Arts         | 1           |
 
 
 Here we can see in this table a reference from a previous table student_id which is a primary key  but in this table it is a foreign key linking the subject table with the students.
